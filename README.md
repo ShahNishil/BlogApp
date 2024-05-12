@@ -4,7 +4,7 @@ This app involves the backend for a blog platform that supports a community of u
 ### Installation
 1. Clone the repository: git clone https://github.com/ShahNishil/BlogApp.git
 2. Install dependencies: npm install
-3. Execute Sql Script(blogDb.sql) in your MySql Server or GUI like MySql Workbench
+3. Execute Sql Script`blogDb.sql` in your MySql Server or GUI like MySql Workbench
 4. Configure environment variables: set environment variable in dotenv(.env) file appropriately like :- user, password, database.
    
 ### Usage
