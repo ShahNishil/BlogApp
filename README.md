@@ -28,28 +28,28 @@ This app involves the backend for a blog platform that supports a community of u
     
 ## POST /posts
   - Description: Create a new post associated it with the user and any tags.
-  - Requirement: Must set "token" that obtain during login in header before sending request in key name "Authorization" as shown in screenshot(screenshot/setToken.png).
+  - Requirement: Must set `token` that obtain during login in header before sending request in key name `Authorization` as shown in screenshot(screenshot/setToken.png).
   - Parameters:
       -> `user_id, title, content, tags` (Body Parameter): The user_id of the user who will create post. Must be a valid user_id.
   - Response: As shown in screenshot(screenshot/addPost.png).
       
 ## GET /posts
   - Description: Retrieve a list of all posts for any user. This should also return associated tags for each post.
-  - Requirement: Must set "token" that obtain during login in header before sending request in key name "Authorization" as shown in screenshot(screenshot/setToken.png).
+  - Requirement: Must set `token` that obtain during login in header before sending request in key name `Authorization` as shown in screenshot(screenshot/setToken.png).
   - Parameters:
       -> `user_id` (Body Parameter): The ID of the user whose every post to be fetch. Must be a valid user_id.
   - Response: As shown in screenshot(screenshot/getAllPosts.png).
     
 ## GET /posts/:id
   - Description: Retrieve a single post by its ID.
-  - Requirement: Must set "token" that obtain during login in header before sending request in key name "Authorization" as shown in screenshot(screenshot/setToken.png).
+  - Requirement: Must set `token` that obtain during login in header before sending request in key name `Authorization` as shown in screenshot(screenshot/setToken.png).
   - Parameters:
       -> `id` (URL Path Parameter): The ID of the post to be fetch. Must be a valid post ID.
   - Response: As shown in screenshot(screenshot/getPostById.png).
       
 ## PUT /posts/:id
   - Description: Update a post by its ID.
-  - Requirement: Must set "token" that obtain during login in header before sending request in key name "Authorization" as shown in screenshot(screenshot/setToken.png).
+  - Requirement: Must set `token` that obtain during login in header before sending request in key name `Authorization` as shown in screenshot(screenshot/setToken.png).
   - Parameters:
       -> `id` (URL Path Parameter): The ID of the post to be updated. Must be a valid post ID.
       -> `title, content, tags` (Body Parameter).
@@ -57,20 +57,20 @@ This app involves the backend for a blog platform that supports a community of u
     
 ## DELETE /posts/:id
   - Description:  Delete a post by its ID.
-  - Requirement: Must set "token" that obtain during login in header before sending request in key name "Authorization" as shown in screenshot(screenshot/setToken.png).
+  - Requirement: Must set `token` that obtain during login in header before sending request in key name `Authorization` as shown in screenshot(screenshot/setToken.png).
   - Parameters:
       -> `id` (URL Path Parameter): The ID of the post to be deleted. Must be a valid post ID.
   - Response: As shown in screenshot(screenshot/deletePost.png).
     
 ## GET /tags
   - Description: Retrieve a list of all tags (predefined tag list: e.g. Technology, Health and Wellness, Finance, Travel and Tourism, Food, Fashion, Sports, Fitness, History, etc).
-  - Requirement: Must set "token" that obtain during login in header before sending request in key name "Authorization" as shown in screenshot(screenshot/setToken.png).
+  - Requirement: Must set `token` that obtain during login in header before sending request in key name `Authorization` as shown in screenshot(screenshot/setToken.png).
   - Parameters: None
   - Response: As shown in screenshot(screenshot/getTags.png).
 
 
 ### Credits
 
-- `ShahNishil` (Contributor)
+- Nishil Shah (Contributor)
 
   
