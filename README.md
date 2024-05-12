@@ -2,7 +2,7 @@
 This app involves the backend for a blog platform that supports a community of users. On this platform, users can share their insights by creating blog posts, each potentially associated with a variety of tags to categorize the content. It's important that the system allows for many users who can each contribute any number of posts, and each post can be linked with one or more tags. Likewise, tags can be connected to numerous posts, creating an interactive mesh of topics.
 
 ### Installation
-1. Clone the repository: git clone https://github.com/yourusername/yourproject.git
+1. Clone the repository: git clone https://github.com/ShahNishil/BlogApp.git
 2. Install dependencies: npm install
 3. Execute Sql Script(blogDb.sql) in your MySql Server or GUI like MySql Workbench
 4. Configure environment variables: set environment variable in dotenv(.env) file appropriately like :- user, password, database.
@@ -71,6 +71,6 @@ This app involves the backend for a blog platform that supports a community of u
 
 ### Credits
 
-- Nishil Shah (Contributor)
+- `ShahNishil` (Contributor)
 
   
